@@ -1,0 +1,18 @@
+HTTrack3.49-5 launched on Fri, 17 Jan 2025 16:53:40 at http://https://www.odoo.com/documentation/18.0/applications.html +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/*
+(webhttrack -q -%i -w http://https://www.odoo.com/documentation/18.0/applications.html -O "/opt/jjss/odoo18web/odoo_doc_offline" -n -%P -p7 -N0 -s2 -p7 -D -a -K0 -c4 -%k -A100000 -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -%s -%u )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+16:58:19	Error: 	Exit requested by shell or user
+16:58:20	Warning: 	unexpected incomplete type with 200 code at https://www.odoo.com/documentation/18.0/applications/sales/point_of_sale/pricing/discount_tags.html
+16:58:21	Warning: 	File not added due to mirror cancel: https://www.odoo.com/documentation/18.0/applications/sales/point_of_sale/pricing/discount_tags.html
+16:58:35	Warning: 	File not added due to mirror cancel: https://www.odoo.com/documentation/18.0/applications/sales/point_of_sale/pricing/discount_tags.html
+16:58:35	Error: 	"mirror stopped by user" (-1) at link https://www.odoo.com/documentation/18.0/applications/sales/point_of_sale/pricing/discount_tags.html (from https://www.odoo.com/documentation/18.0/applications.html)
+16:58:35	Warning: 	File not added due to mirror cancel: https://www.odoo.com/documentation/18.0/de/applications.html
+16:58:35	Error: 	"mirror stopped by user" (-1) at link https://www.odoo.com/documentation/18.0/de/applications.html (from https://www.odoo.com/documentation/18.0/applications.html)
+
+HTTrack Website Copier/3.49-5 mirror complete in 4 minutes 55 seconds : 240 links scanned, 238 files written (81408776 bytes overall) [12220031 bytes received at 41423 bytes/sec], 81408335 bytes transferred using HTTP compression in 238 files, ratio 14%
+(3 errors, 4 warnings, 0 messages)

@@ -1,0 +1,29 @@
+
+#  the smallest number you got
+#  the index i of the digit d you took, i as small as possible
+#  the index j (as small as possible) where you insert this digit d to have the smallest number.
+#You have a positive number n consisting of digits
+
+def smallest(n):
+    #print(len(n))
+    print(n)
+    smalls=[""]
+    #as=min(n)
+    n1=str(n)
+    min=n1[0]
+    for val in n1:
+        if val<min:
+            min=val
+        
+    #for i in range(0,len(n)):
+    #    for j in range(i, len(n)):
+    #        if (n[i]<n[j]):
+    #            print(n[i])
+    #            print(n[i],"is lower than ",n[j])
+    #            smalls.append(n[i])            
+
+    print(smalls)
+    print(min)
+    pass
+    
+ desired output [126235, 2, 0]

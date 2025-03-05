@@ -1,0 +1,99 @@
+import re
+strs=['10.98.162.168','2001:0db8:85a3:0000:0000:8a2e:0370:7334','255.32.555.5','250.32:555.5']
+def ipv6str(strings):
+    if len(strings)>15:
+        indexes = [x for x, v in enumerate(strings) if v==':']
+        indexes.insert(0,0)
+        indexes.append(len(strings))
+        #print(indexes) # <-- [6, 13, 19]
+        if len(indexes)== 9:
+            return 1
+    else:
+    #    print("cadena")
+       # print(len(strings))
+        indexes = [x for x, v in enumerate(strings) if v=='.']
+      #  print(indexes) # <-- [6, 13, 19]
+  #      print(type(indexes))
+        indexes.insert(0,0)
+        indexes.append(len(strings))
+       # print(len(indexes))
+       # print(indexes)
+        count=0
+        if len(indexes)==5:
+            for ind in range(0,4,1):
+                #print("ind",ind)
+                #print(indexes[ind])
+                subs=strings[indexes[ind]:indexes[ind+1]]
+                #print("subs",subs)
+                subsnumeric = re.sub(r'\D', '', subs)
+        #        print(subsnumeric)
+                if (0<int(subsnumeric)<255):
+                    count=count+1
+
+           # print(count)
+            if count<3:
+                return 3
+            else:
+                return 2
+            
+
+
+for string in range(0,len(strs)):
+    print(strs[string])
+   # print(len((strs[string])))
+    bool6=ipv6str(strs[string])
+    print("valor bool")
+    print(bool6)
+    if (bool6==1): print("ipv6")
+    elif (bool6==2): print ("ipv4")
+    else: print("none")
+
+marketing mix modelling
+marketing science
+design experimental
+jenkins
+aws
+artifactory
+kubernets
+
+wood=[23, 23, 2, 21, 5, 19, 23, 17, 6, 22, 1]
+print(wood)
+print(most_frequent(wood))
+#print(len(wood)-1)
+indexes = [x for x, v in enumerate(wood) if v==most_frequent(wood)]
+print(len(indexes))
+print(indexes)
+indexes1=[x for x in range(0,len(wood))]
+print(indexes1)
+
+res = list(set(indexes1) - set(indexes))
+print(len(res))
+print("++")
+print(res)
+cont=0
+for i in range (0,len(res)):
+    for j in range (i,len(res)):
+        nuew=int(wood[res[i]])+int(wood[res[j]])
+        if (nuew==int(most_frequent(wood))):
+            print(i,j,(wood[res[i]]),int(wood[res[j]]),nuew)
+            #print(nuew)
+            cont=cont+1
+
+print(cont)
+print(len(indexes)+cont)
+
+
+
+
+
+
+https://www.pulzo.com/nacion/como-solicitar-divorcio-colombia-detalles-divorcio-libre-PP3256262
+https://www.cronista.com/colombia/actualidad-co/ley-divorcio-libre-como-funciona-que-beneficios-trae-colombia/
+https://www.msn.com/es-co/familia-y-relaciones/divorcio/divorcio-libre-de-qu%C3%A9-se-trata-la-ley-sancionada-por-gustavo-petro/ar-AA1wVGgx?ocid=BingNewsVerp
+https://www.diariodelsur.com.co/colombia-aprueba-el-divorcio-unilateral-la-nueva-ley-que-cambia-las-reglas/
+https://www.msn.com/es-co/noticias/other/divorcio-libre-de-qu%C3%A9-se-trata-la-ley-sancionada-por-gustavo-petro/ar-AA1wVGgx?ocid=BingNewsVerp
+https://www.elinformador.com.co/index.php/general/350-juridica/328266-con-la-voluntad-de-uno-de-los-conyuge-el-divorcio-es-realidad
+https://www.notaria19bogota.com/tramite-de-divorcio-ante-notario/
+https://outlook.office365.com/book/AgendaConsuladoMvil@cancilleria.gov.co/id/kSSBYm9UoUKjD7NqIjtYUA2?fbclid=PAZXh0bgNhZW0CMTEAAaaj37EVbuwjzCfuK3T_rYn_IIgDjabTV2ljICcXL44ZHsJLSESVPrXqItg_aem_JCCzuETSBXRQC-SzRLkYDg
+
+

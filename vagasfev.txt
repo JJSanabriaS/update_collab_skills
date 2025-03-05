@@ -1,0 +1,18 @@
+turing  LLM remote india, Expert proficiency in TypeScript and Python,Strong hands-on experience with PostgreSQL,Proficient in prompt engineering,
+bairsdev ETL Engineer - Remote Work: 5+ years of experience in ETL  business needs, Experience in Db,Python experience is a big plus. açwayas has coding challenge online
+linke senior sql Strong data modelling, data architecture and data warehousing, dustry best practices, CI/CD tools (Github, Azure Devops, Jenkins, Bamboo etc), 5+ years ETL tools (SSIS, ADF or similar),Power Query (M query language) and DAX, reports and performance metrics from complex and disparate platforms, 
+  sr ia, fullstack 5+ years of professional experience as a Machine Learning Engineer with strong knowledge of AI,Strong programming skills in languages such as Python, R, or Java.
+Experience with ml frameworks (TensorFlow or PyTorch),Experience with data analysis and visualization tools (Pandas, NumPy, or Matplotlib),Knowledge of LLM,Familiarity with GenAI,Knowledge of statistical modeling and inference techniques,Advanced English is required,Experience working on Agile/Scrum teams,Forensic attention to detail,A positive mindset and a can-do attitude,identify goals of FullStack's clients, and deliver , work 40 hours per week. 
+ai enginner mlops (hidden),  Bachelor's or Master's degree in Computer Science, Experience in AI, Proficiency in programming languages such as Python or R, Experience ml libraries (TensorFlow, PyTorch, scikit-learn).
+staff data science   vtex: ML pipelines (Scikit-learn, PyTorch, Tensorflow or similar),big data for analysis, feature engineering and evaluating experiment results,differences between research and production-level code,key requirements for deploying and maintaining ML/AI models in production environment,strong communication skills,enjoy collaboration, supporting colleagues and building products that customers love; Plus (Experience in Search, Recommendation or Ads,LangChain, LangGraph, CrewAI, LlamaIndex or similar,MLOps,low latency APIs.
+engenheiro dadros, stefanini: ETL (Informatica, Talend, Pentaho, Apache Nifi, e SSIS), Bancos de Dados: Domínio em SQL (relacionais) e (MongoDB, Cassandra), Programação: Proficiência em SQL, Python, Java, C#, e automação via scripting, Integração de Dados (MuleSoft, Dell Boomi, IBM IIB, e Apache Camel), Data Warehousing (Redshift e BigQuery),APIs e HTTP (APIs RESTful, integração SOAP, segurança (HTTPS, OAuth, JWT), Big Data (Hadoop, Spark, Kafka), Arquitetura (Microserviços, Docker, Kubernetes, Azure AKS), Segurança
+Python Backend Tech Lead / Pesquisa e Desenvolvimento - Trabalho Remoto test algorithms, and oop, python challenge
+
+complexidade media quicjsort, metodo procura nro en array organizado,razao de crecimento quadratico em tempo de codigo,estrutura de datos requerida para proc recursivo opv> queu,stack,array, lista prioridades, melhor uso para arvore, recursao, index records, spool de impresao, precesamento imagm, complexidade temporaria pra inserir elemento em arvore balanceada, ordenar array grande e pouca espaco qual algoritmo> bubblem merge, quick, heap, order lista linkada qual algoritmo
+
+oop test
+local var,2 methods same name, but different inputs,
+
+
+
+

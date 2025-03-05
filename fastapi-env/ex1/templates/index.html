@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+   <body>
+      <input type="button" value="Submit" onclick="submit()">
+      <div id="responseArea"></div>
+      <script>
+         function submit() {
+            fetch('/add', {
+                 method: 'POST',
+                 headers: {
+                    'Accept': 'application/json',
+                    'Content-Type': 'application/json'
+                 },
+                 body: JSON.stringify({'title':'The Great Gatsby','author': 'F. Scott Fitzgerald','price': 10.99})
+              })
+              .then(resp => resp.text()) // or, resp.json(), etc.
+              .then(data => {
+                 document.getElementById("responseArea").innerHTML = data;
+              })
+              .catch(error => {
+                 console.error(error);
+              });
+         }
+      </script>
+   </body>
+</html>

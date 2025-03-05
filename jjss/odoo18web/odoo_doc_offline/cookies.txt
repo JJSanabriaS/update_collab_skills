@@ -1,0 +1,5 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+www.odoo.com	TRUE	/	FALSE	1999999999	frontend_lang	en_US
+www.odoo.com	TRUE	/	FALSE	1999999999	session_id	dfTvG6FnUxe92szwE7NGFYgub4em3rbRkz0z15aFnqKiLjKUR71by_bg4SZv6LEg4blSkbOFXFLih-OJS9lc
+

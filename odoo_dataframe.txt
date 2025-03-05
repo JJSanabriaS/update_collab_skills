@@ -1,0 +1,19 @@
+https://www.cdata.com/kb/tech/odoo-python-pandas.rst useless odoo to python what for ?
+https://www.odoo.com/pt_BR/forum/ajuda-1/how-shall-i-show-data-in-the-form-of-pandas-dataframe-in-web-side-looks-like-excel-format-or-related-152772 same question 2020 no answer when resolved answer;;;
+https://www.odoo.com/pt_BR/forum/ajuda-1/how-to-display-a-table-on-webside-153178 similar question, same author no amswer
+
+https://stackoverflow.com/questions/39067505/pyspark-display-a-spark-data-frame-in-a-table-format useless
+
+https://www.odoo.com/pt_BR/forum/ajuda-1/bind-dictionary-or-dataframe-on-model-tree-view-217475 interesting pandas merge after taking the df without code
+https://www.reddit.com/r/Odoo/comments/vrc97c/render_pandas_table_in_form_view/?rdt=40835 external code supossed to import xls
+https://www.odoo.com/pt_BR/forum/ajuda-1/displaying-available-data-based-on-some-fields-in-odoo-v17-240596 unrelated
+https://chinmayroy.medium.com/how-to-read-all-fields-data-of-a-module-in-odoo-49c42ec4ac11 unrelated
+
+pode ser de utilidade https://www.w3schools.com/python/pandas/pandas_csv.asp 
+
+   print(df.to_string())
+   pd.options.display.max_rows
+   
+
+
+
